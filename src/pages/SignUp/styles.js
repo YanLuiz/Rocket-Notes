@@ -31,7 +31,7 @@ export const Form = styled.form`
     > h2 {
         font-size: 24px;
         margin: 48px 0;
- 
+  
     }
 
     > p {
@@ -45,7 +45,7 @@ export const Form = styled.form`
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 128px;
+        gap: 84px;
     }
     
 `
