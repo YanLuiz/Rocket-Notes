@@ -20,6 +20,7 @@ export const Container = styled.div`
         color: ${({ theme }) => theme.COLORS.WHITE};
         background: transparent;
         border: 0;
+        
 
 
         &::placeholder{
@@ -29,6 +30,14 @@ export const Container = styled.div`
 
         
     }
+
+    > input:focus {
+    
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    } 
+    
     > svg {
             margin-left: 16px;
     }

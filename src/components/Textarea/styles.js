@@ -22,4 +22,10 @@ export const Container = styled.textarea`
     &::placeholder {
         color: ${({ theme }) => theme.COLORS.GRAY_300};
     }
+
+    
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+
 `
